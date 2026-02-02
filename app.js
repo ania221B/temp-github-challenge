@@ -1,1 +1,7 @@
-console.log('hello from main')
+console.log('hello from ticket-33')
+const today = new Date()
+const year = today.getFullYear()
+const month = (today.getMonth() + 1).toString().padStart(2, '0')
+const day = today.getDate()
+console.log(`Today's date: ${year}-${month}-${day}`)
+console.log('Have a great day!')
